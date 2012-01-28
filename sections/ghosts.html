@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Sam Beck</title>
+        <link href="../styles/style2.css" rel="stylesheet" type="text/css"/>
+        
+        <!-- include jQuery library -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<!-- include Cycle plugin -->
+	<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+	
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$('.main').cycle({
+				fx : 'fade', speed: 600 // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+			});
+
+			$(".main").cycle("pause");
+
+		});
+
+	</script>
+
+
+
+    </head>
+    
+ 
+    <body>
+    <div class="title">
+        <a href="../illustration.html"><img src="../images/sambeck.jpg"></a>
+        </div>
+                <div class="navigation">
+   
+        <h1><a href="../index.html">DESIGN</a></h1>
+    <nav> 
+    	<a href="ecards.html">Ecards From Us</a><br>
+		<a href="shelf.html">Shelf Magazine</a><br>
+		<a href="polyphonic.html">Polyphonic</a><br>
+		<a href="zetetic.html">Zetetic</a><br>
+		<a href="beautiful.html">Beautiful Handwriting</a><br>
+		<a href="links.html">Links Learning Centre</a><br>
+		<a href="educated.html">An Educated Breakfast</a><br>
+		<a href="rendezvous.html">Rendezvous with Madness</a><br>
+		<a href="verus.html">Verus, Marvel, KDGC</a>
+	</nav>
+        <h1><a href="../illustration.html">ILLUSTRATION</a></h1>
+	<nav>    
+		<a href="2011.html">2011</a><br>
+		<a href="2010.html">2010</a><br>
+		<a href="tentacles.html">Tentacles</a><br>
+		<a href="ghosts.html">Ghosts</a><br>
+		<a href="sevenprinces.html">Seven Princes</a><br>
+		<a href="exist.html">Exist</a><br>
+	</nav>
+   <!--<h1><a href="../shop.html">SHOP</a></h1>-->
+   <h1><a href="../about.html">ABOUT</a></h1>
+   	<nav>
+   		sambeck@pauciloquent.com<br>
+		(905) 751-3144<br>
+		Toronto, Canada<br>
+	</nav>
+	</div>
+	
+        <div class="line">
+        	<img src="../images/line.gif" height=465>
+        </div>
+        <div class="column1">
+        <h2>GHOSTS</h2>
+		<p> GHOSTS is a 8x5 in, 28 page zine, laser printed on Mowhawk Brite-Hue Grape.<br>
+			It's available now for purchase: $7 
+			<p><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="JD9ZCUDWVDBZ8">
+<table>
+<tr><td><input type="hidden" name="on0" value="GHOSTS $7 + Shipping">GHOSTS $7 + Shipping</td></tr><tr><td><select name="os0">
+	<option value="USA/Canada">USA/Canada $9.00 CAD</option>
+	<option value="International">International $12.00 CAD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="CAD">
+<input type="image" src="http://www.pauciloquent.com/files/buynowjune3.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</p>
+			
+		</p>
+		
+		
+		<div class="main" id="main">
+			<img src="../images/illustration/ghosts1.jpg" height=500 width=333>
+			<img src="../images/illustration/ghosts2.jpg" height=500 width=640>
+			<img src="../images/illustration/ghosts3.jpg" height=500 width=640>
+			<img src="../images/illustration/ghosts4.jpg" height=500 width=640>
+			<img src="../images/illustration/ghosts5.jpg" height=500 width=640>
+			<img src="../images/illustration/ghosts6.jpg" height=500 width=640>
+			<img src="../images/illustration/ghosts7.jpg" height=500 width=640>
+			
+			
+			
+		</div>
+
+
+    </body>
+    
+    <div class="label" id="nextbutton"><img src="../images/nextarrow.jpg"></div>
+<br/>
+          <div class="label" id="prevbutton"><img src="../images/prevarrow.jpg"></div>
+   
+   <script>
+           
+
+             $("#nextbutton").click(function(){
+       
+               $(".main").cycle("next");
+       
+});
+
+$("#prevbutton").click(function(){
+       
+       
+               $(".main").cycle("prev");
+});
+           
+           
+
+   </script>
+ 
+</html>

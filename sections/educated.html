@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Sam Beck</title>
+        <link href="../styles/style2.css" rel="stylesheet" type="text/css"/>
+        
+        <!-- include jQuery library -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<!-- include Cycle plugin -->
+	<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+	
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$('.main').cycle({
+				fx : 'fade', speed: 600 // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+			});
+
+			$(".main").cycle("pause");
+
+		});
+
+	</script>
+
+
+    </head>
+    
+ 
+    <body>
+    <div class="title">
+        <a href="../index.html"><img src="../images/sambeck.jpg"></a>
+        </div>
+                <div class="navigation">
+   
+        <h1><a href="../index.html">DESIGN</a></h1>
+    <nav> 
+    	<a href="ecards.html">Ecards From Us</a><br>
+		<a href="shelf.html">Shelf Magazine</a><br>
+		<a href="polyphonic.html">Polyphonic</a><br>
+		<a href="zetetic.html">Zetetic</a><br>
+		<a href="beautiful.html">Beautiful Handwriting</a><br>
+		<a href="links.html">Links Learning Centre</a><br>
+		<a href="educated.html">An Educated Breakfast</a><br>
+		<a href="rendezvous.html">Rendezvous with Madness</a><br>
+		<a href="verus.html">Verus, Marvel, KDGC</a>
+	</nav>
+        <h1><a href="../illustration.html">ILLUSTRATION</a></h1>
+	<nav>    
+		<a href="2011.html">2011</a><br>
+		<a href="2010.html">2010</a><br>
+		<a href="tentacles.html">Tentacles</a><br>
+		<a href="ghosts.html">Ghosts</a><br>
+		<a href="sevenprinces.html">Seven Princes</a><br>
+		<a href="exist.html">Exist</a><br>
+	</nav>
+   <!--<h1><a href="../shop.html">SHOP</a></h1>-->
+   <h1><a href="../about.html">ABOUT</a></h1>
+   	<nav>
+   		sambeck@pauciloquent.com<br>
+		(905) 751-3144<br>
+		Toronto, Canada<br>
+	</nav>
+	</div>
+	
+        <div class="line">
+        	<img src="../images/line.gif" height=465>
+        </div>
+        <div class="column1">
+        <h2>AN EDUCATED BREAKFAST</h2>
+		<p> Information graphic designed to advocate for healthier meals to be provided at schools for children and to inform parents about the importance of healthy eating in relation to a child’s development. 
+		</p>
+		
+		
+			<div class="main" id="main">
+			<img src="../images/design/educated1.jpg" height=600 width=458>
+			<img  src="../images/design/educated2.jpg" height=1050 width=413>
+			<img  src="../images/design/educated3.jpg" height=777 width=592>
+			<img  src="../images/design/educated4.jpg" height=525 width=750>
+			<img  src="../images/design/educated5.jpg" height=700 width=310>
+			
+		</div>
+
+
+    </body>
+    
+    <div class="label" id="nextbutton"><img src="../images/nextarrow.jpg"></div>
+<br/>
+          <div class="label" id="prevbutton"><img src="../images/prevarrow.jpg"></div>
+   
+   <script>
+           
+
+             $("#nextbutton").click(function(){
+       
+               $(".main").cycle("next");
+       
+});
+
+$("#prevbutton").click(function(){
+       
+       
+               $(".main").cycle("prev");
+});
+           
+           
+
+   </script>

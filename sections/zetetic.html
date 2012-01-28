@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Sam Beck</title>
+        <link href="../styles/style2.css" rel="stylesheet" type="text/css"/>
+        
+        <!-- include jQuery library -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<!-- include Cycle plugin -->
+	<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+	
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$('.main').cycle({
+				fx : 'fade', speed: 600 // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+			});
+
+			$(".main").cycle("pause");
+
+		});
+
+	</script>
+
+
+    </head>
+    
+ 
+    <body>
+    <div class="title">
+        <a href="../index.html"><img src="../images/sambeck.jpg"></a>
+        </div>
+                <div class="navigation">
+   
+        <h1><a href="../index.html">DESIGN</a></h1>
+    <nav> 
+    	<a href="ecards.html">Ecards From Us</a><br>
+		<a href="shelf.html">Shelf Magazine</a><br>
+		<a href="polyphonic.html">Polyphonic</a><br>
+		<a href="zetetic.html">Zetetic</a><br>
+		<a href="beautiful.html">Beautiful Handwriting</a><br>
+		<a href="links.html">Links Learning Centre</a><br>
+		<a href="educated.html">An Educated Breakfast</a><br>
+		<a href="rendezvous.html">Rendezvous with Madness</a><br>
+		<a href="verus.html">Verus, Marvel, KDGC</a>
+	</nav>
+        <h1><a href="../illustration.html">ILLUSTRATION</a></h1>
+	<nav>    
+		<a href="2011.html">2011</a><br>
+		<a href="2010.html">2010</a><br>
+		<a href="tentacles.html">Tentacles</a><br>
+		<a href="ghosts.html">Ghosts</a><br>
+		<a href="sevenprinces.html">Seven Princes</a><br>
+		<a href="exist.html">Exist</a><br>
+	</nav>
+   <!--<h1><a href="../shop.html">SHOP</a></h1>-->
+   <h1><a href="../about.html">ABOUT</a></h1>
+   	<nav>
+   		sambeck@pauciloquent.com<br>
+		(905) 751-3144<br>
+		Toronto, Canada<br>
+	</nav>
+	</div>
+	
+        <div class="line">
+        	<img src="../images/line.gif" height=465>
+        </div>
+        <div class="column1">
+        <h2>ZETETIC</h2>
+		<p> The word Zetetic means to arrive at or proceed by inquiry. The project Zetetic uses the genre of dystopian novels to help question present-day issues (privacy and surveillance, truth in the media, happiness in society and the relationship of technology to people) and compare them back to literature and to each other.
+			</p>
+		<p>This project consists of four posters and 4 accompanying zines.</p>
+		
+		
+		
+		<div class="main" id="main">
+					
+		<img src="../images/design/zetetic5.jpg"  width=391 height=540>
+		<img src="../images/design/zetetic6.jpg"  width=700 height=499>
+		<img src="../images/design/zetetic7.jpg"  width=700 height=540>
+		<img src="../images/design/zetetic8.jpg"  widtht=700 height=500>
+		<img src="../images/design/zetetic9.jpg"  width=700 height=540>
+		<img src="../images/design/zetetic10.jpg"  width=700 height=540>
+		<img src="../images/design/zetetic11.jpg"  width=700 height=540>
+		<img src="../images/design/zetetic12.jpg"  width=700 height=540>
+		<img src="../images/design/zetetic13.jpg"  width=700 height=540>
+		<img src="../images/design/zetetic14.jpg"  width=700 height=540>
+		<img src="../images/design/zetetic1.jpg"  width=416 height=600>
+		<img src="../images/design/zetetic2.jpg"  width=427 height=600>
+		<img src="../images/design/zetetic3.jpg"  width=447 height=600>
+		<img src="../images/design/zetetic4.jpg"  width=433 height=600>
+
+		</div>
+
+
+</body>
+    
+    <div class="label" id="nextbutton"><img src="../images/nextarrow.jpg"></div>
+<br/>
+          <div class="label" id="prevbutton"><img src="../images/prevarrow.jpg"></div>
+   
+   <script>
+           
+
+             $("#nextbutton").click(function(){
+       
+               $(".main").cycle("next");
+       
+});
+
+$("#prevbutton").click(function(){
+       
+       
+               $(".main").cycle("prev");
+});
+           
+           
+
+   </script>
+   
+</html>
+

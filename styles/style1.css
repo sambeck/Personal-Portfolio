@@ -1,0 +1,155 @@
+/* Novecento is a font by Jan Tonellato http://typography.synthview.com */
+
+body{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+@font-face {
+    font-family: 'NovecentowideMedium';
+    src: url('Novecentowide-Medium-webfont.eot');
+    src: url('Novecentowide-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Novecentowide-Medium-webfont.woff') format('woff'),
+         url('Novecentowide-Medium-webfont.ttf') format('truetype'),
+         url('Novecentowide-Medium-webfont.svg#NovecentowideMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Puritan20Normal';
+    src: url('Puritan_Regular-webfont.eot');
+    src: url('Puritan_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Puritan_Regular-webfont.woff') format('woff'),
+         url('Puritan_Regular-webfont.ttf') format('truetype'),
+         url('Puritan_Regular-webfont.svg#Puritan20Normal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Puritan20Italic';
+    src: url('Puritan_Italic-webfont.eot');
+    src: url('Puritan_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Puritan_Italic-webfont.woff') format('woff'),
+         url('Puritan_Italic-webfont.ttf') format('truetype'),
+         url('Puritan_Italic-webfont.svg#Puritan20Italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a{
+	text-decoration: none;
+	font-weight: normal;
+	font-style: normal;
+	color: #000;
+}
+
+a:link {color: #000;}      /*unvisited link */
+a:visited {color:#000;}  /* visited link */
+a:hover {color: #00e7ac;}  /* mouse over link */
+a:active {color: #cacaca;}  /* selected link */ 
+
+h1{
+	
+	font: 18px 'NovecentowideMedium', san-serif;
+	
+}
+
+h2{
+		font: 12px/17px "Puritan20Normal", serif;
+	padding-top: 140px;
+}
+
+h3{
+			font: 11px/1px "Puritan20Italic", serif;
+}
+
+.navigation{
+	position: absolute;
+	top: 80px;
+}
+nav{
+	font: 13px "Puritan20Normal", serif;
+	
+}
+
+p{
+	font: 13px "Puritan20Normal", serif;
+}
+
+
+.row1{
+	float: left;
+	height: 222px;
+	width: 167px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+
+.row2{
+	float: left;
+	height: 222px;
+	width: 167px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.row3{
+	float: left;
+	height: 222px;
+	width: 167px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.container{
+	position: absolute;
+	top: 93px;
+	left: 290px;
+	width: 630px;
+	height: 600px;
+}
+
+.title{
+	left: 23px;
+	position: absolute;
+}
+	
+  /*  .row1:hover {  
+        opacity: .4;  
+        cursor: pointer; 
+    } 
+        .row2:hover {  
+        opacity: .4;  
+        cursor: pointer; 
+    } 
+        .row3:hover {  
+        opacity: .4;  
+        cursor: pointer; 
+    }  
+    */
+
+	
+	div.fadehover {
+	position: relative;
+	}
+ 
+img.a {
+	position: absolute;
+	left: 0;
+	top: 0;
+        z-index: 10;
+	}
+ 
+img.b {
+	position: absolute;
+	left: 0;
+	top: 0;
+	
+	}

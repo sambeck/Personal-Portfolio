@@ -1,0 +1,121 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Sam Beck</title>
+        <link href="../styles/style2.css" rel="stylesheet" type="text/css"/>
+        
+        <!-- include jQuery library -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<!-- include Cycle plugin -->
+	<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+	
+	<script language="JavaScript" type="text/JavaScript"> 
+	   
+	// this basically checks what the value of q (a random variable name i chose) is and sets the grey box which has the id ima to the image path.
+		function showT(q){ 
+			if(q == 0){
+					document.getElementById('ima').setAttribute('src','../images/illustration/britain.jpg') 
+					document.getElementById("field_name").innerHTML = "Guard &ndash; Ink, 7x11 in";
+					
+			}else if(q == 1){
+					document.getElementById('ima').setAttribute('src','../images/illustration/parisandhelen.jpg') 
+					document.getElementById("field_name").innerHTML = "Paris and Helen &ndash; Digital<br> Based on the novel The Lost Books of the Odyssey by Zachary Mason";
+					
+			}else if(q == 2){
+					document.getElementById('ima').setAttribute('src','../images/illustration/sonow.jpg')
+					document.getElementById("field_name").innerHTML = "So Now &ndash; Mixed media, 8.5x11 in";
+					  
+			}else if(q == 3){
+				document.getElementById('ima').setAttribute('src','../images/illustration/family.jpg')
+				document.getElementById("field_name").innerHTML = "Family &ndash; Acrylic, 20x15 in";
+				 
+			}else if(q == 4){
+				document.getElementById('ima').setAttribute('src','../images/illustration/storm.jpg')
+				document.getElementById("field_name").innerHTML = "Storm Messenger &ndash; Digital";
+				 
+			}else if(q == 5){
+				document.getElementById('ima').setAttribute('src','../images/illustration/meridian.jpg')
+				document.getElementById("field_name").innerHTML = "Meridian &ndash; Acrylic and ink, 24x18 inches";
+				 
+			}else if(q == 6){
+					document.getElementById('ima').setAttribute('src','../images/illustration/repent.jpg')
+					document.getElementById("field_name").innerHTML = "Repent &ndash; Ink, 10x6 inches"; 
+			}
+		
+		} 
+	</script>
+    </head>
+    <body>
+    <div class="title">
+        <a href="../illustration.html"><img src="../images/sambeck.jpg"></a>
+        </div>
+                <div class="navigation">
+   
+        <h1><a href="../index.html">DESIGN</a></h1>
+    <nav> 
+    	<a href="ecards.html">Ecards From Us</a><br>
+		<a href="shelf.html">Shelf Magazine</a><br>
+		<a href="polyphonic.html">Polyphonic</a><br>
+		<a href="zetetic.html">Zetetic</a><br>
+		<a href="beautiful.html">Beautiful Handwriting</a><br>
+		<a href="links.html">Links Learning Centre</a><br>
+		<a href="educated.html">An Educated Breakfast</a><br>
+		<a href="rendezvous.html">Rendezvous with Madness</a><br>
+		<a href="verus.html">Verus, Marvel, KDGC</a>
+	</nav>
+        <h1><a href="../illustration.html">ILLUSTRATION</a></h1>
+	<nav>    
+		<a href="2011.html">2011</a><br>
+		<a href="2010.html">2010</a><br>
+		<a href="tentacles.html">Tentacles</a><br>
+		<a href="ghosts.html">Ghosts</a><br>
+		<a href="sevenprinces.html">Seven Princes</a><br>
+		<a href="exist.html">Exist</a><br>
+	</nav>
+   <!--<h1><a href="../shop.html">SHOP</a></h1>-->
+   <h1><a href="../about.html">ABOUT</a></h1>
+   	<nav>
+   		sambeck@pauciloquent.com<br>
+		(905) 751-3144<br>
+		Toronto, Canada<br>
+	</nav>
+	</div>
+	
+        <div class="line">
+        	<img src="../images/line.gif" height=465>
+        </div>
+        
+        
+        
+       
+        <div class="column1">
+        <h2>2011 ILLUSTRATIONS</h2>
+        	<div class="container">
+	<!-- on mouseover showT(q) is hte method, q is the number you just put in that is related to the if statement above, i.e if q = 0 then load something, q=1 load something else -->
+			<div class="thumbnail"><img src="../images/thumbnails/britain_tBW.jpg" onclick="showT(0)" height=40 width=134></a></div>
+			<div class="thumbnail"><img src="../images/thumbnails/parisandhelen_tBW.jpg" onclick="showT(1)" height=40 width=134></a></div>
+			<div class="thumbnail"><img src="../images/thumbnails/sonow_tBW.jpg" onclick="showT(2)" height=40 width=134></a></div>
+			<div class="thumbnail"><img src="../images/thumbnails/familt_tBW.jpg" onclick="showT(3)" height=40 width=134></a></div>
+			<div class="thumbnail"><img src="../images/thumbnails/storm_tBW.jpg" onclick="showT(4)" height=40 width=134></a></div>
+			<div class="thumbnail"><img src="../images/thumbnails/meridian_tBW.jpg" onclick="showT(5)" height=40 width=134></a></div>
+			<div class="thumbnail"><img src="../images/thumbnails/repent_tBW.jpg" onclick="showT(6)" height=40 width=134></a></div>
+		</div>
+		
+		
+		<div class="main" id="main">
+			
+		
+			
+		<img src="../images/thumbnails/graybox1.jpg"  id="ima">
+			<div id="panel">
+				  <div id="field_name"></div>
+			</div>
+		</div>
+
+
+    </body>
+    
+</html>
